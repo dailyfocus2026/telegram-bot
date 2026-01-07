@@ -3,8 +3,9 @@ import schedule
 import time
 import datetime
 import pytz
+import os
 
-TOKEN = "8398557558:AAHr7-Ii9ZaKL9lOZuuGIifQi6vf55rPark"
+TOKEN = os.getenv("BOT_TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
 
